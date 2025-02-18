@@ -6,20 +6,28 @@ function playSound(soundFile) {
 }
 
 // Adding event listeners for each button
-document.getElementById('sound1').addEventListener('click', function() {
-    playSound('sound1'); // Assumes the file name is sound1.mp3 in the sounds folder
+document.getElementById('applause').addEventListener('click', function() {
+    playSound('applause'); // Assumes the file name is sound1.mp3 in the sounds folder
 });
 
-document.getElementById('sound2').addEventListener('click', function() {
-    playSound('sound2'); // Assumes the file name is sound2.mp3 in the sounds folder
+document.getElementById('boo').addEventListener('click', function() {
+    playSound('boo'); // Assumes the file name is sound2.mp3 in the sounds folder
 });
 
-document.getElementById('sound3').addEventListener('click', function() {
-    playSound('sound3'); // Assumes the file name is sound3.mp3 in the sounds folder
+document.getElementById('gasp').addEventListener('click', function() {
+    playSound('gasp'); // Assumes the file name is sound3.mp3 in the sounds folder
 });
 
-document.getElementById('sound4').addEventListener('click', function() {
-    playSound('sound4'); // Assumes the file name is sound4.mp3 in the sounds folder
+document.getElementById('tada').addEventListener('click', function() {
+    playSound('tada'); // Assumes the file name is sound4.mp3 in the sounds folder
+});
+
+document.getElementById('victory').addEventListener('click', function() {
+    playSound('victory'); // Assumes the file name is sound2.mp3 in the sounds folder
+});
+
+document.getElementById('wrong').addEventListener('click', function() {
+    playSound('wrong'); // Assumes the file name is sound3.mp3 in the sounds folder
 });
 
 // Stop all sounds when the stop button is pressed
