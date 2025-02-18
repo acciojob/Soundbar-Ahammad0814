@@ -31,7 +31,7 @@ document.getElementById('wrong').addEventListener('click', function() {
 });
 
 // Stop all sounds when the stop button is pressed
-document.getElementById('stopButton').addEventListener('click', function() {
+document.getElementById('stop').addEventListener('click', function() {
     let allAudio = document.querySelectorAll('audio');
     allAudio.forEach(audio => {
         audio.pause();
